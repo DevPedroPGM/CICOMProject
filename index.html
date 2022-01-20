@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.ico">
-    <title>SICON EMERGÊNCIAS</title>
+    <title>CICOM</title>
 </head>
 <body>
     <div>
     <img class="logo" src="SICON-removebg-preview.png" id="logo">
     </div>
-    <h1>Contato de Emergência</h1>
+    <h1>REGISTRO DE EMERGÊNCIAS</h1>
     <form action="https://formsubmit.co/devpedroxavier@gmail.com" method="POST" 
     class="form"
     >
@@ -20,12 +20,12 @@
         <input type="text" name="name" id="Nome" required>
     <label for="text" name="RG">RG:</label>
         <input type="text" name="RG" maxlength="10" id="RG" required/>
-    <label for="text">CPF:</label>
-        <input type="text" maxlength="11" id="cpf" required/>
+    <label for="text">CPF</label>
+        <input type="text" name="cpf" maxlength="11" onblur="return verificarCPF(this.value)" required/>
     <label for="name">Cidade:</label>
         <input type="text" name="Cidade" maxlength="20" id="cidade" required/>
-    <label for="name">Povoado:</label>
-        <input type="text" name="Povoado" maxlength="20" id="povoado" />
+    <label for="name">Endereço:</label>
+        <input type="text" name="Endereço" maxlength="20" id="Endereço" />
     <label for="name">Localidade:</label>
         <input type="text" name="Localidade" max="30" id="localidade" required>
     <label for="email">Ponto de referência:</label>
