@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
+    <title>SICON EMERGÊNCIAS</title>
+</head>
+<body>
+    <div>
+    <img class="logo" src="SICON-removebg-preview.png" id="logo">
+    </div>
+    <h1>Contato de Emergência</h1>
+    <form action="https://formsubmit.co/devpedroxavier@gmail.com" method="POST" 
+    class="form"
+    >
+    <label for="name">Nome:</label>
+        <input type="text" name="name" id="Nome" required>
+    <label for="text" name="RG">RG:</label>
+        <input type="text" name="RG" maxlength="10" id="RG" required/>
+    <label for="text">CPF:</label>
+        <input type="text" maxlength="11" id="cpf" required/>
+    <label for="name">Cidade:</label>
+        <input type="text" name="Cidade" maxlength="20" id="cidade" required/>
+    <label for="name">Povoado:</label>
+        <input type="text" name="Povoado" maxlength="20" id="povoado" />
+    <label for="name">Localidade:</label>
+        <input type="text" name="Localidade" max="30" id="localidade" required>
+    <label for="email">Ponto de referência:</label>
+        <input type="text" name="Ponto de referência" id="ponto" required/>
+    <label for="message">Registro de Ocorrência. Descrição do fato:</label>
+        <textarea name="message" id="message" required></textarea>
+        <p class="obs">OBS: ENVIAR FOTO DE UM DOCUMENTO DE IDENTIDADE PARA O NÚMERO (75) 99840-5566</p>
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+        <button type="submit">Enviar</button>
+        <input class="limpar" type="reset" id="limpar">
+        <input type="hidden" name="_captcha" value="false">
+   </form> 
+</body>
+</html>
