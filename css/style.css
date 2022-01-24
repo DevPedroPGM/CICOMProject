@@ -17,22 +17,24 @@ body {
     color: #fff;
     background-position: center;
     background-repeat: no-repeat;
-    max-width: 100%;
-    max-height: 50%;
-    margin-left: initial;
+
 }
 
-  .img {
-    position: center;
-    margin-top: 50px;
-    margin: auto;
+.img {
+    margin-top: 1px;
+    width: 600px;
+    height: 600px;
+    margin-left: 50px;
+    margin-right: 300px;
     display: block;
+    margin-bottom: 100fr;
   }
 
 h1, h2 {
     font-size: 3rem;
     color: white;
     margin-bottom: 2rem;
+    margin-top: 10px;
     text-align: center;
     line-height: 1.2;
 }
